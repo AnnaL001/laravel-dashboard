@@ -1,0 +1,55 @@
+.fas{
+    font-size: 27px;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 50%;
+    background-color:rgba(196,196,196,0.3);
+}
+
+.card{
+    border-radius: 20px !important;
+}
+
+h6{
+    font-size: 16px;
+    letter-spacing: 0.6px;
+}
+
+#donut_chart{
+    height: 230px;
+    width: 530px;
+}
+
+#pie_chart{
+    width: 550px ;
+    height: 313px ;
+}
+
+#bar_chart{
+    width: 400px ;
+    height: 313px ;
+}
+
+#line_chart{
+    width: 650px ;
+    height: 350px ;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-12,.col-6{
+        margin-bottom: 5px;
+    }
+    #donut_chart{
+        height: 200px;
+        width: 340px;
+    }
+    #pie_chart{
+        height: 200px;
+        width: 340px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .col-12,.col-6{
+        margin-bottom: 20px;
+}
+}
